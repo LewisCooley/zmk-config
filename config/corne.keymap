@@ -37,7 +37,7 @@
                          &kp DOLLAR &kp PERCENT &kp AMPERSAND &kp SEMICOLON &kp ASTERISK
                          &kp MINUS &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp SLASH &kp PIPE
                          &kp TILDE &kp CARET &kp QUESTION &kp CAPSLOCK &kp TAB
-                         &kp QUOTE &kp LBKT &kp RBKT &kp NON_US_BACKSLASH &kp APOSTROPHE
+                         &kp DOUBLE_QUOTES &kp LBKT &kp RBKT &kp NON_US_BACKSLASH &kp APOSTROPHE
                          &kp ESC &tog 0 &kp SPACE &kp RET &tog 2 &kp BACKSPACE>;
         };
 
