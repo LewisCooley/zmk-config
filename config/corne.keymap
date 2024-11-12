@@ -30,7 +30,7 @@
         };
 
         first_layer {
-            bindings = < &kp Q &kp CARAT &kp ASTERISK &kp MINUS &kp UNDERSCORE &kp NON_US_HASH                &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &kp Q
+            bindings = < &kp Q &kp CARET &kp ASTERISK &kp MINUS &kp UNDERSCORE &kp NON_US_HASH                &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &kp Q
                          &kp Q &kp PERCENT &kp PLUS &kp DOUBLE_QUOTES &kp EQUAL &kp APOSTROPHE                &kp LEFT_BRACE &kp LEFT_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp SLASH &kp Q
                          &kp Q &kp TILDE &kp AMPERSAND &kp EXCLAMATION &kp QUESTION &kp AT_SIGN               &kp RIGHT_BRACE &kp LESS_THAN &kp DOWN_ARROW &kp GREATER_THAN &kp NON_US_BACKSLASH &kp Q
                                                 &to 0 &to 0 &kp SPACE                                         &kp BACKSPACE &kp RET &to 2>;
