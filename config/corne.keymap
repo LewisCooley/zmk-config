@@ -23,10 +23,10 @@
         compatible = "zmk,keymap";
 
         home_layer {
-        bindings = <             &kp Q &kp Q &kp W &kp F &kp P &kp B                          &kp J &kp L &kp U &kp Y &kp SEMI &kp Q
-                                 &kp Q &kp A &kp R &mt RIGHT_ALT S &mt LCTRL T &kp G          &kp M &mt LCTRL N &mt RIGHT_ALT E &kp I &kp O &kp Q 
-                                 &kp Q &kp X &kp C &kp D &kp V &kp Z                          &kp K &kp H &kp COMMA &kp DOT &kp ESC &kp Q
-                                             &kp LSHIFT &to 0 &kp SPACE                        &kp BACKSPACE &to 1 &kp RET>;
+            bindings = < &kp Q &kp Q &kp W &kp F &kp P &kp B                          &kp J &kp L &kp U &kp Y &kp SEMI &kp Q
+                         &kp Q &kp A &kp R &mt RIGHT_ALT S &mt LCTRL T &kp G          &kp M &mt LCTRL N &mt RIGHT_ALT E &kp I &kp O &kp Q 
+                         &kp Q &kp X &kp C &kp D &kp V &kp Z                          &kp K &kp H &kp COMMA &kp DOT &kp ESC &kp Q
+                                     &kp LSHIFT &to 0 &kp SPACE                        &kp BACKSPACE &to 1 &kp RET>;
         };
 
         first_layer {
