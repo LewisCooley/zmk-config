@@ -29,16 +29,9 @@
                                     &kp LSHIFT &mo 2 &kp SPACE                        &kp BACKSPACE &mo 1 &kp RET>;
         };
 
-        //first_layer {
-          //  bindings = < &kp Q &kp CARET &kp ASTERISK &kp MINUS &kp UNDERSCORE &kp NON_US_HASH                             &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &kp Q
-            //             &kp Q &kp PERCENT &kp PLUS &kp AT_SIGN &kp EQUAL &kp APOSTROPHE                                   &kp LEFT_BRACE &kp LEFT_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp SLASH &kp Q
-              //           &kp Q &kp TILDE &kp AMPERSAND &kp EXCLAMATION &kp QUESTION &kp DOUBLE_QUOTES                      &kp RIGHT_BRACE &kp LESS_THAN &kp DOWN_ARROW &kp GREATER_THAN &kp NON_US_BACKSLASH &kp Q
-                //                                &to 3 &to 3 &kp SPACE                                                  &kp BACKSPACE &to 2 &kp RET>;
-        //};
-
         first_layer {
             bindings = < &kp Q &kp LESS_THAN &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LEFT_BRACE &kp PERCENT              &kp DOLLAR &kp RIGHT_BRACE &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp GREATER_THAN &kp Q
-                         &kp Q &kp AMPERSAND  &kp MINUS &kp AT_SIGN &kp COLON &kp PLUS                                     &kp ASTERISK &kp SEMI &kp APOSTROPHE &kp UNDERSCORE &kp PIPE2 &kp Q
+                         &kp Q &kp AMPERSAND  &kp MINUS &kp APOSTROPHE &kp COLON &kp PLUS                                   &kp ASTERISK &kp SEMI &kp AT_SIGN &kp UNDERSCORE &kp PIPE2 &kp Q
                          &kp Q &kp TILDE &kp DOUBLE_QUOTES &kp SLASH &kp EQUAL &kp QUESTION                                &kp EXCLAMATION &kp NON_US_HASH &kp NON_US_BACKSLASH &kp GRAVE &kp TILDE2 &kp Q
                                                 &kp LSHIFT &to F5 &kp SPACE                                                  &kp BACKSPACE &to 2 &kp RET>;
         };
