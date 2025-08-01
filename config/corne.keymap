@@ -15,7 +15,7 @@
 #define third_layer 3
 
 &mt {
-    tapping-term-ms = <800>;
+    tapping-term-ms = <400>;
 };
 
 / {
