@@ -23,21 +23,21 @@
         compatible = "zmk,keymap";
 
         home_layer {
-            bindings = < &none &kp Q &kp W &kp F &kp P &kp B                          &kp J &kp L &kp U &kp Y &kp TAB &none
-                         &none &kp A &kp R &mt RIGHT_ALT S &mt LCTRL T &kp G          &kp M &mt LCTRL N &mt RIGHT_ALT E &kp I &kp O &none 
-                         &none &kp Z &kp X &kp C &kp D &kp V                          &kp K &kp H &kp COMMA &kp DOT &kp ESC &none
+            bindings = < &none &kp Q &kp W &kp F &kp P &kp B                          &kp J &kp L &kp U &kp Y &kp ESC &none
+                         &none &kp A &kp R &kp S &kp T &kp G                          &kp M &kp N &kp E &kp I &kp O &none 
+                         &none &kp LCTRL &kp RIGHT_ALT &kp C &kp D &kp V              &kp K &kp H &kp TAB &kp RIGHT_ALT &kp LCTRL &none
                                     &kp LSHIFT &mo 2 &kp SPACE                        &kp BACKSPACE &mo 1 &kp RET>;
         };
 
         first_layer {
             bindings = < &none &kp LESS_THAN &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LEFT_BRACE &kp PERCENT              &kp DOLLAR &kp RIGHT_BRACE &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp GREATER_THAN &none
                          &none &kp AMPERSAND  &kp MINUS &kp APOSTROPHE &kp COLON &kp PLUS                                   &kp ASTERISK &kp SEMI &kp AT_SIGN &kp UNDERSCORE &kp PIPE2 &none
-                         &none &kp TILDE &kp DOUBLE_QUOTES &kp SLASH &kp EQUAL &kp QUESTION                                &kp EXCLAMATION &kp NON_US_HASH &kp NON_US_BACKSLASH &kp GRAVE &kp TILDE2 &none
-                                                &kp LSHIFT &mo 2 &kp SPACE                                                  &kp BACKSPACE &none &kp RET>;
+                         &none &kp Z &kp X &kp SLASH &kp EQUAL &kp QUESTION                                                 &kp EXCLAMATION &kp NON_US_HASH &kp NON_US_BACKSLASH &kp GRAVE &kp TILDE2 &none
+                                                &kp COMMA &kp dot &kp SPACE                                                  &kp BACKSPACE &none &kp RET>;
         };
 
         second_layer {
-            bindings = < &none &none &kp CARET &none &kp DOUBLE_QUOTES &to F5                                 &kp N0 &kp N1 &kp N2 &kp N3 &none &none
+            bindings = < &none &none &kp CARET &kp TILDE &kp DOUBLE_QUOTES &kp F5                                 &kp N0 &kp N1 &kp N2 &kp N3 &none &none
                          &none &none &kp LEFT_ARROW &kp UP_ARROW &kp RIGHT_ARROW &none                      &kp N0 &kp N4 &kp N5 &kp N6 &none &none
                          &none &none &none &kp DOWN_ARROW &none &none                                        &kp N0 &kp N7 &kp N8 &kp N9 &none &none
                                                 &none &none &kp SPACE                                            &kp BACKSPACE &mo 1 &kp RET>;
