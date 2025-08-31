@@ -33,7 +33,7 @@
             bindings = < &none &kp LESS_THAN &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LEFT_BRACE &kp PERCENT              &kp DOLLAR &kp RIGHT_BRACE &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp GREATER_THAN &none
                          &none &kp AMPERSAND  &kp MINUS &kp APOSTROPHE &kp COLON &kp PLUS                                   &kp ASTERISK &kp SEMI &kp AT_SIGN &kp UNDERSCORE &kp PIPE2 &none
                          &none &kp Z &kp X &kp SLASH &kp EQUAL &kp QUESTION                                                 &kp EXCLAMATION &kp NON_US_HASH &kp NON_US_BACKSLASH &kp GRAVE &kp TILDE2 &none
-                                                &kp COMMA &kp dot &kp SPACE                                                  &kp BACKSPACE &none &kp RET>;
+                                                &kp COMMA &kp DOT &kp SPACE                                                  &kp BACKSPACE &none &kp RET>;
         };
 
         second_layer {
