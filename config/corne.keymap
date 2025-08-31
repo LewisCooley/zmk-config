@@ -25,14 +25,14 @@
         home_layer {
             bindings = < &none &kp Q &kp W &kp F &kp P &kp B                          &kp J &kp L &kp U &kp Y &kp ESC &none
                          &none &kp A &kp R &kp S &kp T &kp G                          &kp M &kp N &kp E &kp I &kp O &none 
-                         &none &kp LCTRL &kp RIGHT_ALT &kp C &kp D &kp V              &kp K &kp H &kp TAB &kp RIGHT_ALT &kp LCTRL &none
+                         &none &kp X &kp RIGHT_ALT &kp C &kp D &kp V              &kp K &kp H &kp TAB &kp RIGHT_ALT &kp LCTRL &none
                                     &kp LSHIFT &mo 2 &kp SPACE                        &kp BACKSPACE &mo 1 &kp RET>;
         };
 
         first_layer {
             bindings = < &none &kp LESS_THAN &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LEFT_BRACE &kp PERCENT              &kp DOLLAR &kp RIGHT_BRACE &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp GREATER_THAN &none
                          &none &kp AMPERSAND  &kp MINUS &kp APOSTROPHE &kp COLON &kp PLUS                                   &kp ASTERISK &kp SEMI &kp AT_SIGN &kp UNDERSCORE &kp PIPE2 &none
-                         &none &kp Z &kp X &kp SLASH &kp EQUAL &kp QUESTION                                                 &kp EXCLAMATION &kp NON_US_HASH &kp NON_US_BACKSLASH &kp GRAVE &kp TILDE2 &none
+                         &none &kp Z &kp DOUBLE_QUOTES &kp SLASH &kp EQUAL &kp QUESTION                                                 &kp EXCLAMATION &kp NON_US_HASH &kp NON_US_BACKSLASH &kp GRAVE &kp TILDE2 &none
                                                 &kp COMMA &kp DOT &kp SPACE                                                  &kp BACKSPACE &none &kp RET>;
         };
 
