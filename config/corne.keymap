@@ -40,7 +40,14 @@
             bindings = <                                       &none &kp HOME &kp CARET &kp F5 &kp F11 &kp F7              &kp LSHIFT &kp N1 &kp N2 &kp N3 &kp END &none
                                &none &kp PRINTSCREEN &kp LEFT_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp C_VOL_UP              &kp N0 &kp N4 &kp N5 &kp N6 &kp LWIN &none
                                                  &none &kp LS(Z) &kp TILDE &kp DOWN_ARROW &kp F4 &kp C_VOL_DN              &kp PG_DN &kp N7 &kp N8 &kp N9 &kp PG_UP &none
-                                                                                        &none &none &kp SPACE              &kp BACKSPACE &none &kp RET>;
+                                                                                        &none &none &kp SPACE              &kp BACKSPACE &tog 3 &kp RET>;
+        };
+
+        second_layer {
+            bindings = <                                                  &none &none &none &none &none &none              &msc SCRL_UP &none &none &none &none &none
+                                                &none &none &mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_RIGHT &none              &none &mkp LCLK &mkp MCLK &mkp RCLK &none &none
+                                                                 &none &none &none &mmv MOVE_DOWN &none &none              &msc SCRL_DOWN &none &none &none &none &none
+                                                                                        &none &none &kp SPACE              &kp BACKSPACE &tog 0 &kp RET>;
         };
     };
 };
