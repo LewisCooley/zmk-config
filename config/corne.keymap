@@ -16,14 +16,14 @@
 #define third_layer 3
 
 &mmv {
-       time-to-max-speed-ms = <500>;
-       acceleration-exponent = <1>;
-   };
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+};
    
-   &msc {
-       time-to-max-speed-ms = <500>;
-       acceleration-exponent = <1>;
-   };
+&msc {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+};
 
 &mt {
     tapping-term-ms = <300>;
